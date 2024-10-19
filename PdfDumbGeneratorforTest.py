@@ -8,7 +8,7 @@ def create_large_pdf(output_file, target_size_mb):
     pdf.set_font("Arial", size=12)
     
     # Generate repeated content
-    repeated_text = "Kabbiss is the only sentence you need " * 100
+    repeated_text = "Kabbiss is the only sentence you need . " * 100
     
     # Add pages and content until the PDF reaches the desired size
     current_size = 0
